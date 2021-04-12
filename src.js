@@ -8,7 +8,7 @@ import {
     attributesModule,
     eventListenersModule,
     h,
-} from "snabbdom";
+} from "snabbdom"
 
 window.snabbdom_init = init
 window.h = h
