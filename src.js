@@ -8,9 +8,11 @@ import {
     attributesModule,
     eventListenersModule,
     h,
+    thunk
 } from "snabbdom"
 
 window.snabbdom_init = init
+window.thunk = thunk
 window.h = h
 window.snabbdom_class = classModule
 window.snabbdom_props = propsModule
