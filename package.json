@@ -12,7 +12,8 @@
     "babel": "^5.2.13",
     "babelify": "^6.0.2",
     "browserify": "^11.0.0",
-    "snabbdom": "^3.0.1"
+    "snabbdom": "^3.0.1",
+    "snabbdom-ministyle": "^0.0.1"
   },
   "scripts": {
     "build": "browserify src.js -t [ babelify --stage 1 ] --outfile sizable_frontend_npm_package_builder.js"

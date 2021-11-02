@@ -1,5 +1,6 @@
 "use strict"
 
+import ministyle from 'snabbdom-ministyle'
 import {
     init,
     classModule,
@@ -19,5 +20,6 @@ window.snabbdom_class = classModule
 window.snabbdom_props = propsModule
 window.snabbdom_style = styleModule
 window.snabbdom_dataset = datasetModule
+window.snabbdom_ministyle = ministyle
 window.snabbdom_attributes = attributesModule
 window.snabbdom_eventlisteners = eventListenersModule
